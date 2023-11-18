@@ -1,5 +1,7 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
-
+* {
+  color: #3C373B;
+}
 
 h1 {
   font-family: 'Gaegu', cursive;
@@ -25,6 +27,14 @@ line-height: 1.4;
 
 */
 
+p {
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
+
+
 
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
 
@@ -38,11 +48,13 @@ line-height: 1.4;
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  margin: 20px;
 }
 
 .container {
   /*======= width property yaratın. Değerini 750px olarak atayın */
   margin: 0 auto;
+  width: 750px;
 }
 
 .container header nav a {
